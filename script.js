@@ -7,7 +7,7 @@ $(clickMe).on('click', function(){
 $('#wrapper').on('click', function(e){
     e.stopPropagation()
 })
-// 另外一种写法
+// 另外一种写法:
 // $(clickMe).on('click', function(){
 //     $('.popover').show()
 //     setTimeout(function(){
@@ -16,3 +16,6 @@ $('#wrapper').on('click', function(e){
 //         }) 
 //     }, 0)
 // }) 
+// $('#wrapper').on('click', function(e){
+//     e.stopPropagation()
+// })
