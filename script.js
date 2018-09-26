@@ -1,7 +1,7 @@
 $('#clickMe').on('click', function(){
     console.log(1)
     $('.popover').show()
-    $('document').one('click', function(){
+    $(document).one('click', function(){
         $('.popover').hide()
     }) 
 }) 
