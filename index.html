@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>domevents-demo</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="./jquery-3.3.1.min.js"></script>
-    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css"> 
 </head>
 <body>
     <div id="wrapper" class="wrapper">
@@ -16,5 +14,9 @@
           <input type="checkbox">浮层
         </div>
     </div>
+    <script src="./jquery-3.3.1.min.js"></script>
+    <script src="./script.js"></script>  
 </body>
 </html>
+<!-- <script>此时如果放在head标签里面，会产生bug，因为dom文档树还没有加载就加载script
+    并且进行了dom操作，结果就是没有效果 -->
